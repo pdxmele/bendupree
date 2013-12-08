@@ -613,10 +613,61 @@ strong {
 }
 
 .wrapper {
-  /*max-width: 650px;*/
-  margin: 0 0;
+  max-width: 960px;
+  margin: auto;
   position: relative;
-  padding: 20px 20px;
+  padding: 50px;
+}
+
+#left {
+  width: 70%;
+  float:left;
+  padding: 0px 25px 0px 0px;
+}
+
+#right {
+  width: 30%; 
+  float:right; 
+  font-size:13;
+  font-style:italic;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 20px 0px;
+  max-width:100%;
+}
+
+img.ben {
+  float: right;
+  margin: 65px 0px 10px 0px;
+  max-width:100%;
+}
+
+/* hr style from http://css-tricks.com/examples/hrs/
+Gradient color1 - color2 - color1 */
+    
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #f0e7b4;
+    background-image: -webkit-linear-gradient(left, #ffcc00, #f0e7b4); 
+    background-image:    -moz-linear-gradient(left, #ffcc00, #f0e7b4); 
+    background-image:     -ms-linear-gradient(left, #ffcc00, #f0e7b4); 
+    background-image:      -o-linear-gradient(left, #ffcc00, #f0e7b4); 
+}
+
+#the-links {
+  position: relative;
+  text-align: right;
+  padding: 0px 0px 5px 0px;
+}
+
+#inner {
+  text-align: left;
+  padding: 10px 0px 0px 0px;
 }
 
 section img {
